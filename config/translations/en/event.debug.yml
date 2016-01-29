@@ -1,0 +1,4 @@
+description: 'Displays events that can be subscribed to. (Only displays events that already have listeners; may be incomplete)'
+messages:
+    event-list: 'Events you can subscribe to (may be incomplete)'
+    events: 'Events'
