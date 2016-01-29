@@ -35,11 +35,11 @@ class EventDebugCommand extends ContainerAwareCommand {
     $io = new DrupalStyle($input, $output);
 
     $io->section(
-      $this->trans('commands.event.debug.messages.')
+      $this->trans('commands.event.debug.messages.event-list')
     );
 
     $tableHeader = [
-      $this->trans('commands.event.debug.messages.')
+      $this->trans('commands.event.debug.messages.events')
     ];
 
     $tableRows = $this->getEvents();
